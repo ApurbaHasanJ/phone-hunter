@@ -47,6 +47,42 @@
             <span class="visually-hidden">Loading...</span>
           </div>
         </section>
+
+        <!-- Phone detail modal -->
+        <section>
+
+            <!-- Modal -->
+            <div class="modal fade" id="phoneDetailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="phoneDetailModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-secondary" id="phoneDetailModalLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <p>Storage: <span id="phone-storage"></span> </p>
+
+                    <p>Memory: <span id="phone-memory"></span> </p>
+
+                    <p>Display Size: <span id="displaySize"></span></p>
+
+                    <p>ChipSet: <span id="chipSet"></span></p>
+
+                    <p>WLAN: <span id="wlan"></span></p>
+
+                    <p>Bluetooth: <span id="bluetooth"></span></p>
+
+                    <p>GPS: <span id="gps"></span></p>
+
+                    <p>Release Date: <span id="release-date"></span></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
     </main>
 
 
