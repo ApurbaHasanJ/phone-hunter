@@ -127,3 +127,4 @@ const displayPhoneDetail = phone => {
   releaseDate.innerText = phone.releaseDate;
 }
   loadPhones('iphone', 10)
+  
